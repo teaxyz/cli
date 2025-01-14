@@ -6,9 +6,7 @@ Installing with [`brew`] is most straight forward:
 brew install pkgxdev/made/pkgx
 ```
 
-# Other Ways to Install
-
-1. After [`brew`] our installer is easiest:
+If it is not [`brew`], then our installer is easiest:
 
 ```sh
 curl -fsS https://pkgx.sh | sh
@@ -18,9 +16,10 @@ curl -fsS https://pkgx.sh | sh
 Wanna read that script before you run it? [github.com/pkgxdev/setup/installer.sh][installer]
 {% endhint %}
 
-&nbsp;
 
-2. `pkgx` is a standalone binary, so (if you want) you can just download it directly:
+# Other Ways to Install
+
+1. `pkgx` is a standalone binary, so (if you want) you can just download it directly:
 
 ```sh
 # download it to `./pkgx`
@@ -41,14 +40,14 @@ curl -Ssf https://pkgx.sh/$(uname)/$(uname -m).tgz | sudo tar xz -C /usr/local/b
 
 &nbsp;
 
-3. You can also download straight from [GitHub Releases].
+2. You can also download straight from [GitHub Releases].
 
 {% hint style='warning' %}
 If you download manually you’ll need to move the binary somewhere in
 your `PATH`.
 {% endhint %}
 
-4. If you're on Arch Linux (or any of it's derivatives) you can also use the [`pkgx` AUR] (latest released version) or [`pkgx-git` AUR] (latest development version, might not be stable).
+3. If you're on Arch Linux (or any of it's derivatives) you can also use the [`pkgx` AUR] (latest released version) or [`pkgx-git` AUR] (latest development version, might not be stable).
 
 {% hint style='warning' %}
 The AURs are community-maintained and might be out-of-date. Use them with caution.
